@@ -7,11 +7,10 @@ module.exports = {
     filename: 'bundle.js',
     path: __dirname + '/dist',
   },
-  devtool: 'source-map',
+  devtool: 'none',
   resolve: {
     extensions: ['.ts', '.tsx', '.js', '.json'],
   },
-  devtool: 'eval-source-map',
   module: {
     rules: [
       {
