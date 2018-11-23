@@ -1,0 +1,15 @@
+{
+  "defaultSeverity": "error",
+  "extends": "tslint:latest",
+  "rulesDirectory": ["tslint-plugin-prettier"],
+  "rules": {
+    "no-submodule-imports": false,
+    "no-implicit-dependencies": false,
+    "interface-name": false,
+    "quotemark": [true, "single", "jsx-double"],
+    "no-console": false
+  },
+  "linterOptions": {
+    "exclude": ["node_modules"]
+  }
+}
