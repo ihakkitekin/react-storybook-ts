@@ -2,3 +2,4 @@ TODO
 .cache
 .vscode
 node_modules
+dist                  
